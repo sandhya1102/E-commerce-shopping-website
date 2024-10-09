@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce Website</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="logo"><a href="#">SHopiFy</a></div>
         <div class="menu">
-            <a href=""><ion-icon name="close" class="close"></ion-icon></a>
             <ul>
                 <li><a href="#" class="under">HOME</a></li>
                 <li><a href="#about" class="under">ABOUT US</a></li>
@@ -20,10 +19,7 @@
             </ul>
         </div>
         <div class="search">
-            <a href=""
-                ><input type="text" placeholder="search products" id="input" />
-                <ion-icon class="s" name="search"></ion-icon>
-            </a>
+            <input type="text" placeholder="search products" id="input" />
         </div>
         <div class="heading">
             <ul>
@@ -33,7 +29,6 @@
                 <li><a href="#contact" class="under">CONTACT US</a></li>
             </ul>
         </div>
-        <div class="heading1"><ion-icon name="menu" class="ham"></ion-icon></div>
     </header>
     <section>
         <div class="section">
@@ -53,16 +48,14 @@
 
             </div>
             <section class="about-section" id="about">
-                <div class="about-img">
-                    <img src="https://plus.unsplash.com/premium_photo-1667520043080-53dcca77e2aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8fDB8fHww" width="550" height="450">
-                </div>
                 <div class="container">
                     <h2>"Discover fashion that speaks to you – trendsetting styles, unbeatable quality, and effortless shopping."</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia vitae illo molestiae aperiam expedita ut, quis a voluptas velit soluta earum laudantium ad, dolore quas numquam, tempore reiciendis veritatis enim quidem. Maxime repellendus alias veritatis, quas deleniti nemo eos?</h3>
                 </div>
                </section>
             
             <div class="section2" id="products">
+                <h1>Featured Products</h1>
+                <hr>
                 <div class="container">
                     <div class="items">
                         <div class="img img1">
@@ -283,16 +276,45 @@
             </div>
         </div>
     </section>
+    <div class="section3">
+        <div class="container">
+            <div class="content">
+                <i class="fas fa-globe"></i>
+                <p><strong> Worldwide Shipping</strong></p>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, non?</small>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p><strong>Best quality</strong></p>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, non?</small>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-tag"></i>
+                <p><strong>Best Offers</strong></p>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, non?</small>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p><strong>Security Payments</strong></p>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, non?</small>
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+    <div class="sale">
+        SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.
+    </div>
+    <hr>
     <footer>
         <div id="contact" class="footer0"><h1>SHopiFy</h1></div>
         <div class="footer1">
             Connect with us at
             <div class="social-media">
-                <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-youtube"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+                <a href="#"> <i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         <div class="footer2">
@@ -328,9 +350,8 @@
         <div class="footer3">
             Copyright ©
             <h4>SHopiFy</h4>
-            2021-2028
+            2024-25
         </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
